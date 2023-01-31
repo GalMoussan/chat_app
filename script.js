@@ -87,7 +87,7 @@ const handleSubmit = async (e) => {
 
 	const serverURL = window.location.hostname.includes("localhost")
 		? "http://localhost:5000"
-		: "https://ask-me-anything.onrender.com/";
+		: "http://phpstack-604340-3164235.cloudwaysapps.com/server/";
 
 	const response = await fetch(serverURL, {
 		method: "POST",
